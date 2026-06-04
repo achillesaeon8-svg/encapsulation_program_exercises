@@ -16,3 +16,10 @@ class Car:
             self.cool_car.accelerate()
             current_speed = self.cool_car.get_speed()
             print(current_speed)
+
+    def brake(self):
+        print('Braking: ')
+        for deceleration in range (5):
+            self.cool_car.decelerate()
+            current_speed = self.cool_car.slowing_down()
+            print(current_speed)
