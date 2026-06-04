@@ -5,8 +5,6 @@ class Car:
         self.__make = car_brand
         self.__speed = 0
 
-    cool_car = ('Mclaren', '2017')
-
     def speed(self):
         return self.__speed
     
