@@ -1,6 +1,6 @@
 class Car:
 # →
-    def __init__(self):
+    def __init__(self, year_model, car_brand):
         self.__year_model = year_model
         self.__make = car_brand
         self.__speed = 0
@@ -12,7 +12,7 @@ class Car:
         print('Accelerating: ')
         for count in range(5):
             self.__speed += 5
-            print(f'Current Speed: {self.get_speed()} km/h.')
+            print(f'Current Speed: {self.speed()} km/h.')
 
     def brake(self):
         print('Braking: ')
@@ -21,4 +21,4 @@ class Car:
                 self.__speed -= 5
             else: 
                 self.__speed = 0
-            print(f'Current Speed: {self.get_speed()} km/h.')
+            print(f'Current Speed: {self.speed()} km/h.')
