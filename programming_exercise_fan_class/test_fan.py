@@ -7,7 +7,7 @@ class FirstFan:
     first_fan.set_speed(Fan.fast)
     first_fan.set_radius(10)
     first_fan.set_color('yellow')
-    first_fan.set_color(on=True)
+    first_fan.set_on(on=True)
 
     second_fan = Fan()
 
