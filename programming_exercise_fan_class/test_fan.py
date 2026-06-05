@@ -27,3 +27,6 @@ class FirstFan:
     print(f'Radius: {second_fan.get_radius()}.')
     print(f'Color: {second_fan.get_color()}.')
     print(f'Status Mode: {second_fan.get_on()}.\n')
+
+if __name__ == '__main__':
+    FirstFan()
