@@ -13,7 +13,7 @@ class Fan:
     def set_speed(self, speed):
         self.__speed = speed
     
-    def set_mode(self, on):
+    def set_on(self, on):
         self.__on = on
 
     def set_size(self, radius):
@@ -21,3 +21,15 @@ class Fan:
 
     def set_color(self, color):
         self.__color = color
+
+    def get_speed(self):
+        return self.__speed
+    
+    def get_on(self):
+        return self.__on
+
+    def get_radius(self):
+        return self.__radius
+
+    def get_color(self):
+        return self.__color
