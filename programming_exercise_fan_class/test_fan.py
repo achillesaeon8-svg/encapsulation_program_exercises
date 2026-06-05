@@ -1,6 +1,6 @@
 from fan_class import Fan
 
-class FirstFan:
+class FanSpecifications:
     
     first_fan = Fan()
 
@@ -29,4 +29,4 @@ class FirstFan:
     print(f'Status Mode: {second_fan.get_on()}.\n')
 
 if __name__ == '__main__':
-    FirstFan()
+    FanSpecifications()
