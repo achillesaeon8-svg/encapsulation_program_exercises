@@ -21,3 +21,9 @@ class FirstFan:
     print(f'Radius: {first_fan.get_radius()}.')
     print(f'Color: {first_fan.get_color()}.')
     print(f'Status Mode: {first_fan.get_on()}.\n')
+
+    print('FAN 2 SPECIFICATIONS')
+    print(f'Speed: {second_fan.get_speed()}.')
+    print(f'Radius: {second_fan.get_radius()}.')
+    print(f'Color: {second_fan.get_color()}.')
+    print(f'Status Mode: {second_fan.get_on()}.\n')
