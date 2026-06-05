@@ -8,7 +8,7 @@ class PetInfoOrganizer:
 
     input_name = input('Enter you pet name: ')
     input_animal_type = input('What type of animal is your pet?: ')
-    input_age = input('How old is your pet?: ')
+    input_age = int(input('How old is your pet?: '))
 
     input_pet.set_name(input_name)
     input_pet.set_animal_type(input_animal_type)
