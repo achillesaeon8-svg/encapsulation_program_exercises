@@ -1,0 +1,2 @@
+class FanOutcome:
+    pass
