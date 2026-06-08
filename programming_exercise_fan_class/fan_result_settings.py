@@ -18,7 +18,7 @@ class FanOutcome(Fan):
         reset_color = colors['Normal']
 
         print('=' *50)       
-        print(f'                 {fan_number} SPECIFICATIONS')
+        print(f'                FAN {fan_number} SPECIFICATIONS')
         print('=' *50)
         
         print(f'Speed: {self.get_speed()}')
