@@ -10,7 +10,16 @@ class PetInfoOrganizer:
 
     input_name = input('Enter you pet name: ')
     input_animal_type = input('What type of animal is your pet?: ')
-    input_age = int(input('How old is your pet?: '))
+
+    while True:
+        try:
+            input_age = int(input('How old is your pet?: '))
+            if input_age < 0:
+                print('Error: A pet age cannot be negative. Please try again.')
+                continue
+            break
+        except ValueError:
+            print('Invalid Input. Please Enter a Number.')
 
     input_pet.set_name(input_name)
     input_pet.set_animal_type(input_animal_type)
