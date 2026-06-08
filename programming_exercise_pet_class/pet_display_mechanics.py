@@ -1,4 +1,6 @@
 from pet_class import Pet
 
 class PetOutcome(Pet):
-    pass
+    
+    def __init__(self):
+        super().__init__()
