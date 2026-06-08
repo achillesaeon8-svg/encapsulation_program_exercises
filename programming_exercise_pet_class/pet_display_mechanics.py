@@ -10,7 +10,7 @@ class PetOutcome(Pet):
         print('                              COLLECTED PET DATA')
         print('=' * 80)
 
-        print(f'Pet name: {input_pet.get_name()}.')
-        print(f'Animal Type: {input_pet.get_animal_type()}.')
-        print(f'Pet Age: {input_pet.get_age()}.')
+        print(f'Pet name: {self.get_name()}.')
+        print(f'Animal Type: {self.get_animal_type()}.')
+        print(f'Pet Age: {self.get_age()}.')
         print('=' * 80)

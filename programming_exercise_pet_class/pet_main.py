@@ -1,4 +1,5 @@
 from pet_class import Pet
+from pet_main import PetOutcome
 
 class PetInfoOrganizer:
 
@@ -15,15 +16,6 @@ class PetInfoOrganizer:
     input_pet.set_name(input_name)
     input_pet.set_animal_type(input_animal_type)
     input_pet.set_age(input_age)
-
-    print('=' * 80)
-    print('                              COLLECTED PET DATA')
-    print('=' * 80)
-
-    print(f'Pet name: {input_pet.get_name()}.')
-    print(f'Animal Type: {input_pet.get_animal_type()}.')
-    print(f'Pet Age: {input_pet.get_age()}.')
-    print('=' * 80)
 
 if __name__ == '__main__':
     PetInfoOrganizer()
