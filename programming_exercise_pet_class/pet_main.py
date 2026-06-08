@@ -8,7 +8,7 @@ class PetInfoOrganizer:
     print('                         PET INFORMATION REGISTRATION')
     print('=' * 80)
 
-    input_name = input('Enter you pet name: ')
+    input_name = input('Enter your pet name: ')
     input_animal_type = input('What type of animal is your pet?: ')
 
     while True:
