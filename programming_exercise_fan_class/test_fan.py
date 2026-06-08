@@ -1,5 +1,5 @@
 from fan_class import Fan
-from fan_result_settings import FanOutcome
+from fan_display_mechanics import FanOutcome
 
 class FanSpecifications:
     
