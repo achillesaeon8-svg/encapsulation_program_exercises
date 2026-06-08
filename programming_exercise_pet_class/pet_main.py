@@ -1,9 +1,8 @@
-from pet_class import Pet
-from pet_main import PetOutcome
+from pet_display_mechanics import PetOutcome
 
 class PetInfoOrganizer:
 
-    input_pet = Pet()
+    input_pet = PetOutcome()
 
     print('=' * 80)
     print('                         PET INFORMATION REGISTRATION')
@@ -16,6 +15,8 @@ class PetInfoOrganizer:
     input_pet.set_name(input_name)
     input_pet.set_animal_type(input_animal_type)
     input_pet.set_age(input_age)
+
+    input_pet.pet_display_output()
 
 if __name__ == '__main__':
     PetInfoOrganizer()
