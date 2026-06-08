@@ -6,4 +6,8 @@ class CarOutcome(Car):
         super().__init__(year_model, car_brand)
 
     def car_display_output(self):
-        pass
+        print('=' * 60)
+        print(f'             Car Year & Model: {self.get_year_model()} {self.get_car_brand()}')
+        print('=' * 60)
+
+        print(f'Starting Speed: {self.speed()} km/h.\n')

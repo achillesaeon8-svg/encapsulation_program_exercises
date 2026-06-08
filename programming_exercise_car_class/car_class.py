@@ -26,3 +26,9 @@ class Car:
             print(f'Current Speed: {self.speed()} km/h.')
 
         print('=' * 60)
+
+    def get_year_model(self):
+        return self.__year_model
+    
+    def get_car_brand(self):
+        return self.__make
